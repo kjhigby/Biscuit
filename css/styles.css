@@ -7,6 +7,7 @@ body {
   padding: 10px;
   background: #4B6587;
   text-align: center;
+
 }
 
 img {
@@ -15,16 +16,21 @@ img {
 
 h1 {
   color: #4B6587;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Birthstone', cursive;
+
+
 }
 
 h2 {
   font-size: 30px;
+  font-family: 'Oswald', sans-serif;
 }
 
 p {
   font-size: 20px;
 }
+
+
 /* Header/Blog Title */
 .header {
   padding: 30px;
@@ -40,8 +46,20 @@ p {
 .topnav {
   overflow: hidden;
   background-color: #333;
+
+}
+a:link, a:visited {
+  background-color: #4B6587;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
+a:hover, a:active {
+  background-color: #F7F6F2;
+}
 /* Style the topnav links */
 .topnav a {
   float: left;
